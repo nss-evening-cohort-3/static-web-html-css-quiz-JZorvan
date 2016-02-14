@@ -1,0 +1,96 @@
+/*************************
+  Background Image
+**************************/
+
+html {
+  background: url(images/background.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+/*************************
+  FlexBox Container
+**************************/
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/*************************
+  Product Card
+**************************/
+
+article {
+  flex-basis: 30%;
+  font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+  color: #05243A;
+  background-color: rgba(169, 184, 219, 0.54);
+  border: 1px solid lightblue;
+  border-radius: 15px;
+  -webkit-box-shadow: 10px 10px 10px -1px rgba(5, 42, 71, 0.93);
+  -moz-box-shadow: 10px 10px 10px -1px rgba(5, 42, 71, 0.93);
+  box-shadow: 10px 10px 10px -1px rgba(5, 42, 71, 0.93);
+  margin: 1em;
+
+}
+
+/*************************
+  Product Name
+**************************/
+
+h1 {
+  font-size: 1.8em;
+  border-bottom: 1px dotted lightgray;
+  text-align: center;
+  padding-bottom: .5em;
+}
+
+/*************************
+  Image
+**************************/
+
+img {
+  display: block;
+  max-height: 200px;
+  border: 1px solid #05243A;
+  margin: 0 auto;
+}
+
+/*************************
+  Product Description
+**************************/
+
+.desc {
+  text-align: justify;
+  padding: 0 .5em;
+}
+
+/*************************
+  Availability
+**************************/
+
+.avail {
+  width: 100%;
+  background-color: darkgrey;
+  color: yellow;
+  padding: .5em 0;
+}
+
+/*************************
+  Specifications Section
+**************************/
+
+.specs {
+  font-weight: bold;
+}
+
+/*************************
+  Pricing Section
+**************************/
+
+.price {
+  font-weight: bold;
+}
+
